@@ -1,0 +1,19 @@
+#include "RobotDrive.h"
+
+#include <math.h>
+
+#if ARDUINO > 22
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
+
+RobotDrive::RobotDrive(bool invertLeft, invertRight) {
+	this.isLeftInverted = invertLeft;
+	this.isRightInverted = invertRight;
+	pinMode(left_speed, OUTPUT);
+	pinMode(left_dir, OUTPUT);
+	pinMode(right_speed, OUTPUT);
+	pinMode(right_dir, OUTPUT);
+
+
