@@ -5,7 +5,7 @@ mini arduino-powered robot
 RobotDrive
 ----------
 the RobotDrive class encapsulates the abilities of the ardumot, available from
-Sparkfun and the abilties of the L29H-bridge motor controller
+Sparkfun and the abilities of the L29H-bridge motor controller
 
 Ultrasonic
 ----------
@@ -14,7 +14,7 @@ available from many electronics stores.
 
 Gyro
 ----
-the Gyro class encapsulates the abilties of the <blah blah I cant remember> 
+the Gyro class encapsulates the abilities of the <blah blah I cant remember> 
 gyro.
 
 
